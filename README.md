@@ -2,3 +2,4 @@
 
 - Santiago Bethel
 - Frederick Maussa 
+- Jarid Osorio
