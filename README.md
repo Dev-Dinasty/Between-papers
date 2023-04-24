@@ -3,3 +3,4 @@
 - Santiago Bethel
 - Frederick Maussa 
 - Jarid Osorio
+- Jonnathan Perdomo
