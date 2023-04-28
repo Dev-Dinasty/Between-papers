@@ -4,3 +4,4 @@
 - Frederick Maussa 
 - Jarid Osorio
 - Jonnathan Perdomo
+- Jhony Arrieta 
