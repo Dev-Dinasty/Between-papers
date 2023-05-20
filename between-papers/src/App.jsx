@@ -10,6 +10,8 @@ function App() {
             <li>Home</li>
             <li>Log in</li>
             <li>register</li>
+            <li>Vista cliente</li>
+            <li>Vista admin</li>
           </ul>
         </div>        
       </div>
