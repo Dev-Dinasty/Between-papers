@@ -4,16 +4,21 @@
     width: 200px;
     border-radius: 10px;
     max-height: 300px;
-    align-items: center;
-    justify-content: center;
     padding: 15px;
     overflow: hidden;
     margin: 0 10px;
     background-color: var(--container-bg-color);
+    cursor: pointer;
 }
 .bookUnitImg,
-.textContainerBookUnit{
+.textContainerBookUnit,
+.validationContainer{
     width: 90%;
+    margin: auto;
+}
+.textContainerBookUnit{
+    display: flex;
+    justify-content: space-between;
 }
 .bookUnitImg{
     display: flex;
@@ -27,11 +32,13 @@
     width: 100%;
     height: auto;
 }
-
-.name{
+.name,
+.price{
     font-size: .95rem;
     font-weight: 500;
     line-height: 1.5;
+    color: var(--font-color);
+    text-decoration: none;
 }
 .description{
     font-size: .75rem;

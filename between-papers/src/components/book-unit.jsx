@@ -5,11 +5,14 @@ function BookUnit(props){
   return(
     <div className="containerBookUnit">
       <div className="bookUnitImg">
-        <img src={require(`../img/${props.img}.png`)}/>
+        <img src={require(`../img/${props.img}.png`)} alt={props.alt}/>
       </div>
       <div className="textContainerBookUnit">
         <p className="name">{props.name}</p>
-        <p className="Validation">{props.stars}</p>
+        <p className="price">{props.price}</p>
+      </div>
+      <div className="validationContainer">
+        <p className="calidation">{props.stars}</p>
       </div>
     </div>
   );
