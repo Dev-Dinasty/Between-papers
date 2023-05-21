@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheet/book-unit.css';
+import '../stylesheets/book-unit.css';
 
 function BookUnit(props){
   return(
@@ -11,8 +11,8 @@ function BookUnit(props){
         <p className="name">{props.name}</p>
         <p className="price">{props.price}</p>
       </div>
-      <div className="validationContainer">
-        <p className="calidation">{props.stars}</p>
+      <div className="btnContainer">
+        <button>Agregar al carrito</button>
       </div>
     </div>
   );
