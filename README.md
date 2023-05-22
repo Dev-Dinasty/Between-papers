@@ -19,9 +19,10 @@ Or you can just download this repository
 ***
 ### How to run
 
+To run this project it's necessary to instal node js
+
 To get started, you should initialize npm to download all required dependencies:
 ```
-npm init
 npm install
 ```
 
