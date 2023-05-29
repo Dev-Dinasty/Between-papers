@@ -1,46 +1,74 @@
 :root{
-  --bg-color: hsl(219, 11%,90%);
+  --bg-color: hsl(219, 11%,95%);
   --primary-color: hsl(228,71%,28%);
   --font-color: hsl(0,0%,0%);
   --contrast-color: hsl(0, 0%, 100%);
   --container-bg-color: hsl(214, 10%, 84%);
   --container-bg-color-v2: hsl(214, 10%, 87%);
 }
-.darkMode{
-  --container-bg-color-v2: hsl(0, 0%, 52%);
-  --container-bg-color: hsl(0, 0%, 50%);
-  --contrast-color: hsl(0, 0%, 100%);
-  --font-color: hsl(0,0%,0%);
-  --primary-color: hsl(0,0%,27%);
-  --bg-color: hsl(0, 0%,42%);
-}
+
 *{
   margin: 0;
   padding: 0;
 }
 html,
 body{
+  position: relative;
   font-size: 18px;
   background-color: var(--bg-color);
 }
 .App{
   min-height: 100vh;
-  display: flex;
+}
+.solidHeaderContainer,
+.headerContainer{ 
+  width: 100%;
+  height: 4rem;
+  padding: 5px 0;
+  background-color: var(--primary-color);
 }
 .headerContainer{
   position:fixed;
   top:0;
   left:0;
-  width: 100%;
-  height: 4.2rem;
-  padding: 5px 0;
-  background-color: var(--primary-color);
   z-index: 99999;
+}
+.header{
+  position: relative;
+  margin: auto;
+  width: 95%;
+  height:100%;
+  overflow: hidden;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display:flex;
+  height: 100%;
+  max-width: 700px;
+  color: var(--contrast-color);
+  font-size: 1.1rem;
+}
+.navbar li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 9.375rem;
+  cursor: pointer;
+}
+.header img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
 }
 .body{
   margin:auto;
   width:75%;
-  padding:6.25rem 4.375rem;
+  padding:1rem 4.375rem;
   background-color: var(--container-bg-color-v2);
 }
 .catalogue{
@@ -73,10 +101,10 @@ body{
 .catalogueTitle svg{
   height: 40px;
   width: 40px;
-  transition: all .2s ease-in-out;
   margin: 0 15px;
   color: var(--primary-color);
   cursor: pointer;
+  transition: all .2s ease-in-out;
 }
 .catalogueUnits{
   display: flex;
