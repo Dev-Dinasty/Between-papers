@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 
 import BookUnit from './components/book-unit';
+
 import AdminViewStructure from './components/admin-view-structure';
+
 import AddBookUnitForm from './components/add-book-unit';
 
 import './App.css';
@@ -9,7 +11,10 @@ import './App.css';
 
 function App() {
 
+
   const[addBookUnit, setAddBookUnit] = useState(false);
+  const[adminView, setAdminView] = useState(false);
+  const[show, setShow] = useState(false);
   const[adminView, setAdminView] = useState(false);
 
 
@@ -54,7 +59,6 @@ function App() {
               price='50k'
               stock='15'/>
           </div>
-        }
         </div>
       </div>
     </div>
