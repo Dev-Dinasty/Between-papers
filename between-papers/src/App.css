@@ -25,9 +25,9 @@ body{
   width: 100%;
   height: 4rem;
   padding: 5px 0;
-  background-color: var(--primary-color);
 }
 .headerContainer{
+  background-color: var(--primary-color);
   position:fixed;
   top:0;
   left:0;
@@ -109,4 +109,8 @@ body{
 .catalogueUnits{
   display: flex;
   flex-wrap: wrap;
+}
+
+.crowedFont{
+  color: var(--font-color);
 }
