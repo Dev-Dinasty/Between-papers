@@ -1,0 +1,29 @@
+.productsListContainer{
+    margin: 10px auto;
+}
+.flexContainer{
+    width: 100%;
+}
+.itemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    width: 25%;
+    margin: 1px 1px;
+}
+.itemContainer{
+    color: #000;
+    background-color: #f1f2f3;
+}
+.principal{
+    padding: 10px;
+    background: hsl(228,85%,58%);
+    color: #fff;
+    font-size: 1.3rem;
+}
+.flexContainer img{
+    padding: 5% 0;
+    height: 80px;
+}

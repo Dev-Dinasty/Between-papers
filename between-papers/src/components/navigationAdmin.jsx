@@ -3,7 +3,7 @@ import { NavLink, Routes,Route } from "react-router-dom";
 
 import AddBookUnitForm from './addBookUnit';
 import SalesList from './salesList';
-import ProductsList from '../structure/salesList';
+import ProductsList from '../structure/productsList';
 
 import '../stylesheets/header.css';
 

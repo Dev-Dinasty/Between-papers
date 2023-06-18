@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../stylesheets/book-unit.css';
+
 function BookUnit(props){
   return(
     <div className="containerBookUnit">
