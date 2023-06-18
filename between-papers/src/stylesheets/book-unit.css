@@ -1,31 +1,29 @@
 .containerBookUnit{
     display: flex;
     flex-wrap: wrap;
-    width: 13.5rem;
-    border-radius: 10px;
-    max-height: 21.75rem;
+    width: 10.5rem;
+    max-height: 17.75rem;
     padding: 15px;
     overflow: hidden;
-    margin: 0 10px;
-    background-color: var(--container-bg-color);
+    margin: 10px auto;
+    border: solid 1px #ccc;
 }
 .bookUnitImg,
 .textContainerBookUnit,
+.stock,
 .btnContainer{
     width: 90%;
-    margin: 3px auto;
+    margin:auto;
 }
 .textContainerBookUnit{
     display: flex;
     justify-content: space-between;
-    color: var(--font-color);
 }
 .bookUnitImg{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 15.625rem;
-    border-radius: 10px;
+    height: 13.625rem;
     overflow: hidden;
 }
 .bookUnitImg img {
@@ -34,36 +32,34 @@
 }
 .name,
 .price{
-    font-size: .95rem;
+    font-size: .8rem;
     font-weight: 500;
     line-height: 1.5;
-    color: var(--font-color);
     text-decoration: none;
+}
+.stock{
+    color: #6e6e6e;
 }
 .btnContainer{
     display: block;
-    height: 30px;
-    background-color: var(--primary-color);
+    height: 25px;
     text-align: center;
+    justify-content: center;
     cursor: pointer;
     padding: 5px 0;
     transition: background-color .2s ease-in-out;
-    border: 3px double var(--primary-color) ;
+    background-color: hsl(228,85%,58%);
     border-radius: 10px;
 }
 .btnContainer button{
     background:none;
-    color: var(--contrast-color);
+    color: #fff;
     border: none;
     cursor: pointer;
-    font-size: 1.05rem;
+    font-size: .90rem;
     transition: color .2s ease-in-out;
 }
 .btnContainer:hover{
-    background-color: var(--contrast-color);
+    background-color: hsl(228,85%,48%);
     transition: background-color .2s ease-in-out;
-}
-.btnContainer:hover button{
-    color: var(--primary-color);
-    transition: color .2s ease-in-out;
 }

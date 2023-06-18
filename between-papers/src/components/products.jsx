@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../stylesheets/book-unit.css';
 
-function UnitsList(props){
+function Products(props){
    return(
     <div className="containerBookUnit">
       <div className="bookUnitImg">
@@ -12,9 +12,9 @@ function UnitsList(props){
         <p className="name">{props.name}</p>
         <p className="price">${props.price}</p>
       </div>
-      <p>Stock: {props.stock}</p>
+      <p className='stock name'>Stock: {props.stock}</p>
     </div>    
   );
 }
 
-export default UnitsList;
+export default Products;

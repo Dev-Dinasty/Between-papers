@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../stylesheets/shopping-cart-book-unit.css';
-import BookUnit from './book-unit';
+import '../stylesheets/shopping-cart.css';
+import BookUnit from './bookUnit';
 
 
 const Cart = () => {

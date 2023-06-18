@@ -1,5 +1,4 @@
 import React from 'react';
-import '../stylesheets/book-unit.css';
 
 function BookUnit(props){
   return(
@@ -11,7 +10,7 @@ function BookUnit(props){
         <p className="name">{props.name}</p>
         <p className="price">${props.price}</p>
       </div>
-      <p>Stock: {props.stock}</p>
+      <p className='name stock'>Stock: {props.stock}</p>
       <div className="btnContainer">
         <button>Agregar al carrito</button>
       </div>
